@@ -1,0 +1,38 @@
+{
+	"private": true,
+	"name": "db-interchanges-rest",
+	"version": "0.0.0",
+	"description": "REST API for the db-interchanges module, which can be used to retrieve accessibility information for interchanges between specific platforms at Deutsche Bahn (DB) stations.",
+	"homepage": "https://github.com/juliuste/db-interchanges-rest",
+	"bugs": "https://github.com/juliuste/db-interchanges-rest/issues",
+	"repository": "juliuste/db-interchanges-rest",
+	"license": "ISC",
+	"author": "Julius Tens <mail@juliustens.eu>",
+	"scripts": {
+		"check-deps": "depcheck",
+		"deploy": "./deploy",
+		"fix": "eslint --fix app",
+		"lint": "eslint app",
+		"test": "npm run lint && npm run check-deps"
+	},
+	"dependencies": {
+		"apicache": "^1.5.2",
+		"compression": "^1.7.4",
+		"corser": "^2.0.1",
+		"db-interchanges": "0.0.0",
+		"express": "^4.17.1",
+		"ow": "^0.14.0"
+	},
+	"devDependencies": {
+		"depcheck": "^0.8.4",
+		"eslint": "^6.6.0",
+		"eslint-config-standard": "^14.1.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-node": "^10.0.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1"
+	},
+	"engines": {
+		"node": ">=10"
+	}
+}
