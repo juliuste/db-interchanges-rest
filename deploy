@@ -1,0 +1,13 @@
+#!/bin/sh
+
+rsync -rav --delete \
+	--exclude '.*' \
+	--exclude node_modules \
+	. 'europa:~/db-interchanges/'
+
+ssh europa "\
+cd ~/db-interchanges
+npm i
+npm update
+forever-service delete db-interchanges
+forever-service install db-interchanges -e 'PORT=3036' --start -s app/index.js"
