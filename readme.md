@@ -14,7 +14,7 @@ Output from [`db-interchanges`](https://github.com/juliuste/db-interchanges), se
 - `fromPlatform`: **Required.** Platform name (e.g. `2`)
 - `toStationId`: **Required.** DB station id (e.g. `8012478` for Leipzig Messe)
 - `toPlatform`: **Required.** Platform name (e.g. `3`)
-- `fastaToken`: *Optional, but usage encouraged*. Token for the DB FaSta elevator api. The APi uses a default token, but this is likely to be rate-limited if used by a lot of people. You can get your own one here: https://developer.deutschebahn.com/store/apis/info?name=FaSta-Station_Facilities_Status&version=v2&provider=DBOpenData
+- `fastaToken`: *Optional, but usage encouraged*. Token for the DB FaSta elevator api. The APi uses a default token, but this is likely to be rate-limited if used by a lot of people. You can get your own one [here](https://developer.deutschebahn.com/store/apis/info?name=FaSta-Station_Facilities_Status&version=v2&provider=DBOpenData).
 
 ```shell
 curl 'https://1.db-interchanges.juliustens.eu/?fromStationId=8012478&fromPlatform=2&toStationId=8012478&toPlatform=3'
