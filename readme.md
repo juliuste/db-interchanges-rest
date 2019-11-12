@@ -32,6 +32,12 @@ curl 'https://1.db-interchanges.juliustens.eu/?fromStationId=8012478&fromPlatfor
 }
 ```
 
+## See also
+
+- **[db-interchanges](https://github.com/juliuste/db-interchanges)** - Library exposed by this API.
+- **[db-platforms](https://github.com/juliuste/db-platforms)** - Deutsche Bahn platform information, enriched with OSM data.
+- **[db-elevators](https://github.com/juliuste/db-elevators)** - Deutsche Bahn elevator information, enriched with OSM data.
+
 ## Contributing
 
 If you found a bug or want to propose a feature, feel free to visit [the issues page](https://github.com/juliuste/db-interchanges-rest/issues).
