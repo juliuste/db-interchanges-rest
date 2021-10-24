@@ -1,3 +1,5 @@
+# :warning: CURRENTLY UNMAINTAINED (MIGHT BE RE-ACTIVATED IN THE FUTURE)
+
 # db-interchanges-rest
 
 A public HTTP REST API, exposing the [db-interchanges](https://github.com/juliuste/db-interchanges.) JavaScript module, which can be used to retrieve accessibility information for interchanges between specific platforms at Deutsche Bahn (DB) stations. **See the [module's readme page](https://github.com/juliuste/db-interchanges) for coverage and usage information.**
